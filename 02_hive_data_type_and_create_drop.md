@@ -21,10 +21,13 @@
 	- UNION
 ## Syntax
 * 创建数据库语法
-	- CREATE database <DatabaseName>
+		
+		- CREATE database <DatabaseName>
 * 查看数据库
-	- SHOW <DatanbaseName>
+		
+		- SHOW <DatanbaseName>
 * 删除数据库
-	- DROP database <DatabaseName>
+		
+		- DROP database <DatabaseName>
 
 

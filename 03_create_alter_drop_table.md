@@ -22,12 +22,11 @@
 		- 想要hive去管理数据的整个lifecycle，包括删除。
 		- example：
 			- 创建inernal表格
-				
-				CREATE table <tablename> (field1 type1, field2 type2);
+					
+					CREATE table <tablename> (field1 type1, field2 type2);
 				Row format delimited
 				Fields terminated by '\t'
-			
-			- 加载数据到table
-				
-				LOAD data inpath '/data/path/data.txt' into <tablename>；
+		- 加载数据到table
+		
+		LOAD data inpath '/data/path/data.txt' into <tablename>；
 
