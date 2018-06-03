@@ -24,9 +24,9 @@
 			- 创建inernal表格
 					
 					CREATE table <tablename> (field1 type1, field2 type2);
-				Row format delimited
-				Fields terminated by '\t'
-		- 加载数据到table
-		
-		LOAD data inpath '/data/path/data.txt' into <tablename>；
+					Row format delimited
+					Fields terminated by '\t'
+			- 加载数据到table
+					
+					LOAD data inpath '/data/path/data.txt' into <tablename>；
 
